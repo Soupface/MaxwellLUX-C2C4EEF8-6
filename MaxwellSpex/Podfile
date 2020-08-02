@@ -1,0 +1,31 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '13.1'
+
+target 'MaxwellSpex' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MaxwellSpex
+  # There is a SPM linking error started in Xcode 11.4, well go back to SPM ASAP
+  # pod 'Lux', :path => "../Lux"
+  pod 'Lux', :git => 'https://github.com/maxwelldesign/lux'
+
+  # Firebase might work in SPM once it has binary support
+  # pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'FirebaseDatabase'
+#  pod 'Firebase/Analytics' //Not supported in MAcCatalyst!
+  pod 'Firebase/DynamicLinks'
+  pod 'Firebase/RemoteConfig'
+  pod 'Firebase/Crashlytics'
+  
+  pod 'Mixpanel-swift'
+  
+  target 'MaxwellSpexTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+

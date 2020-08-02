@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>32390660933-iqdl0ptb5832vu2tmvjretaobv4pgrqf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.32390660933-iqdl0ptb5832vu2tmvjretaobv4pgrqf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBQHvmyvD9BVPzLp8v46mE-nBSkUT7upC8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>32390660933</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.maxwelldesign.sample</string>
+	<key>PROJECT_ID</key>
+	<string>openproject-f176d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>openproject-f176d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:32390660933:ios:c4f8f974478a4100ee742c</string>
+	<key>DATABASE_URL</key>
+	<string>https://openproject-f176d.firebaseio.com</string>
+</dict>
+</plist>
